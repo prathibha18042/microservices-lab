@@ -1,5 +1,22 @@
 \# 🚀# 🚀 Microservices Lab - E-Commerce Platform
 
+A FastAPI-based microservices project using Docker Compose and GitHub Actions CI.
+
+CI/CD
+
+This project uses GitHub Actions for Continuous Integration.
+
+On every push:
+
+Linting and unit tests are executed
+
+Docker images are built
+
+Services are started using Docker Compose
+
+Health checks are verified
+
+The pipeline must pass before changes are merged.
 
 
 !\[Python](https://img.shields.io/badge/python-3.11-blue)
@@ -8,7 +25,7 @@
 
 !\[License](https://img.shields.io/badge/license-MIT-green)
 
-
+![CI](https://github.com/<prathibha18042>/<repo>/actions/workflows/<workflow>.yml/badge.svg)
 
 > A production-ready microservices architecture demonstrating cloud-native patterns, health monitoring, and scalable system design.
 
