@@ -1,0 +1,48 @@
+notepad .gitignore
+```
+
+**Copy and paste this into the file:**
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Docker
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables (IMPORTANT - keeps secrets safe)
+.env
+*.env
+.env.local
+
+# Database
+*.sql
+*.sqlite
+*.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.bak
+*~
