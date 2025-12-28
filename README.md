@@ -490,29 +490,20 @@ This project demonstrates a complete microservices ecosystem with automated heal
 
 ```
 
-&nbsp;                   Client/Browser
+&nbsp;              Client/Browser
+                          ↓
+                   API Gateway (Nginx)
+                       Port: 80
+                          ↓
+        ┌─────────────────┼─────────────────┐
+        ↓                 ↓                 ↓
+   User Service    Product Service    Order Service
+    Port: 8001        Port: 8002        Port: 8003
+                                            ↓
+                                      PostgreSQL DB
+                                        Port: 5432
 
-&nbsp;                         ↓
-
-&nbsp;                  API Gateway (Nginx)
-
-&nbsp;                      Port: 80
-
-&nbsp;                         ↓
-
-&nbsp;       ┌─────────────────┼─────────────────┐
-
-&nbsp;       ↓                 ↓                 ↓
-
-&nbsp;  User Service    Product Service    Order Service
-
-&nbsp;   Port: 8001        Port: 8002        Port: 8003
-
-&nbsp;                                           ↓
-
-&nbsp;                                     PostgreSQL DB
-
-&nbsp;                                       Port: 5432
+&nbsp;                                    
 
 ```
 
@@ -914,14 +905,13 @@ This project is licensed under the MIT License.
 
 
 
-\*\*Your Name\*\*
+Prathibha H
 
 \- GitHub: \[@prathibha18042](https://github.com/prathibha18042)
 
 \- Email: prathibha18042@gmail.com
 
 ---
-
 
 
 ⭐ If you find this project helpful, please give it a star!
