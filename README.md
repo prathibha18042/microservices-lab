@@ -1,12 +1,11 @@
-\# 🚀# 🚀 Microservices Lab - E-Commerce Platform
+\# 🚀 Microservices Lab - E-Commerce Platform
 
-
-
-!\[Python](https://img.shields.io/badge/python-3.11-blue)
-
-!\[Docker](https://img.shields.io/badge/docker-ready-blue)
-
-!\[License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![Docker](https://img.shields.io/badge/docker-ready-blue)
+![FastAPI](https://img.shields.io/badge/fastapi-0.110-green)
+![PostgreSQL](https://img.shields.io/badge/postgresql-16-blue)
+![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub%20Actions-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 
 
